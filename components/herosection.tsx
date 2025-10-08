@@ -45,7 +45,7 @@ export default function HeroSection() {
             <div className="flex flex-col justify-center px-6 py-12 lg:px-8 lg:py-24">
               <div className="inline-flex items-center px-3 py-1 text-sm font-medium text-blue-700 bg-blue-50 rounded-full mb-8 self-start">
                 <BoltIcon className="w-4 h-4 mr-1" />
-                Introducing Top Resume 1.0
+                Introducing TalentBrigde 1.0
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight leading-tight">

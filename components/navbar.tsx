@@ -90,8 +90,7 @@ export default function NavBar() {
   const [open, setOpen] = React.useState(false);
   const [showFeatures, setShowFeatures] = React.useState(false);
 
-  return (
-    <div className="mx-16">
+  return <section className="mx-16">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 gap-6">
         <div className="container flex h-14 items-center justify-between">
           <div className="flex items-center space-x-4">
@@ -328,6 +327,6 @@ export default function NavBar() {
           </Sheet>
         </div>
       </header>
-    </div>
-  );
+    </section>
+  ;
 }

@@ -24,13 +24,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="mt-1 w-lvw">
+    <div lang="en" className="mt-1 w-lvw">
       <NavBar/>
-      <body
+      <section
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-      </body>
-    </html>
+      </section>
+    </div>
   );
 }

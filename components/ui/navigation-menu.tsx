@@ -133,7 +133,7 @@ function NavigationMenuLink({
         className
       )}
       {...props}
-    />
+    asChild/>
   )
 }
 

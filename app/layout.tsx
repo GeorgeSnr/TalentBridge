@@ -26,11 +26,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="mt-1 w-lvw">
       <NavBar/>
-      <div
+      <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-      </div>
+      </body>
     </html>
   );
 }

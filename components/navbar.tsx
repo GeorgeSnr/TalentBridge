@@ -26,14 +26,12 @@ import {
   Fingerprint,
   Bell,
   Menu,
-  X,
   Scale,
   SchoolIcon,
   GripHorizontalIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { ChevronDown } from "lucide-react";
-import { Happy_Monkey } from "next/font/google";
 
 const hires = [
   {

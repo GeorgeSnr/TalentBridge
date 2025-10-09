@@ -20,7 +20,7 @@ export default function Benefit() {
                 </div>
                 <div>
                     <h1 className="max-w-2xl mb-6 font-semibold text-gray-700 lg:mb-3 md:text-lg lg:text-xl dark:text-gray-400">
-                        Always ready for what's next
+                        Always ready for what{`'`}s next
                     </h1>
                     <div className='flex gap-6'>
                         <svg className="w-20 h-20 place-self-center text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
